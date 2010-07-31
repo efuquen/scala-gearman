@@ -1,0 +1,5 @@
+#External Dependencies
+#Sat Jul 31 14:42:48 EDT 2010
+/opt/java/jre/lib/rt.jar=
+/home/efuquen/Code/work/scala-gearman/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/sbt_2.7.7-0.7.4.jar=Gearman.scala
+/home/efuquen/Code/work/scala-gearman/project/boot/scala-2.7.7/lib/scala-library.jar=Gearman.scala

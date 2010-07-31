@@ -1,0 +1,4 @@
+#Generated Classes
+#Sat Jul 31 14:43:05 EDT 2010
+src/main/scala/com/grooveshark/gearman/protocol/Packet.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet.class
+src/main/scala/com/grooveshark/gearman/protocol/PacketHeader.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketHeader$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketMagic$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketHeader.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketType$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketType.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketMagic.class

@@ -1,0 +1,4 @@
+#Source Dependencies
+#Sat Jul 31 14:43:05 EDT 2010
+src/main/scala/com/grooveshark/gearman/protocol/Packet.scala=
+src/main/scala/com/grooveshark/gearman/protocol/PacketHeader.scala=src/main/scala/com/grooveshark/gearman/protocol/Packet.scala
