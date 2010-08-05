@@ -1,9 +1,11 @@
 #Source Hashes
-#Wed Aug 04 20:08:49 EDT 2010
+#Wed Aug 04 21:27:37 EDT 2010
 src/main/scala/com/grooveshark/gearman/Message.scala=56886c1697885ab83c0a9a1484efb19085ab56a6
-src/main/scala/com/grooveshark/gearman/protocol/Packet.scala=797de9aa28912693c98e353f5c66eb02a2ff5613
-src/main/scala/com/grooveshark/gearman/req/client/SubmitJob.scala=678aed113cba37cb5b68e6f01a3639fd0235aea6
-src/main/scala/com/grooveshark/gearman/protocol/PacketHeader.scala=9315e9b26e06100dcf8ce191fa53db2687aafa8e
-src/main/scala/com/grooveshark/gearman/req/client/SubmitJobBg.scala=c75b2733ef0452e1515dcaf62c9c1e64e3a1f478
 src/main/scala/com/grooveshark/gearman/res/client/JobCreated.scala=ef376905a02573894378bb0eb159f41aba965f14
+src/main/scala/com/grooveshark/gearman/protocol/Packet.scala=4db7ad41a54a55189bb81827680d9769696df73e
+src/main/scala/com/grooveshark/gearman/net/Connection.scala=62d6f6be2e27a608cb980f9512d148c7de04ea1b
+src/main/scala/com/grooveshark/gearman/req/client/SubmitJobBg.scala=727ac0b733f803c3726dae332fc9accf6ec9e327
+src/main/scala/com/grooveshark/gearman/req/client/SubmitJob.scala=877913e40826c582194195c1f4bc6ce3c03cbf54
 src/main/scala/com/grooveshark/gearman/res/client/WorkComplete.scala=7c95fb5a49fb95403537bcd1ebe87d64220e8e87
+src/main/scala/com/grooveshark/gearman/GearmanClient.scala=47142a0e7cae567960ffb7dc11644f2784ff564f
+src/main/scala/com/grooveshark/gearman/protocol/PacketHeader.scala=9315e9b26e06100dcf8ce191fa53db2687aafa8e

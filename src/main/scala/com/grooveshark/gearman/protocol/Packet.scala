@@ -3,9 +3,7 @@ package com.grooveshark.gearman.protocol
 import scala.collection.mutable.ListBuffer
 
 object Packet {
-  def fromBytes(data: Array[Byte]): Packet = {
-    require(data != null); require(data.size >= 12)
-    val header = PacketHeader.fromBytes(data)
+  def fromBytes(header: PacketHeader, data: Array[Byte]): Packet = {
     if( header.size > 0 ) {
       var args = new ListBuffer[Byte] 
       var payload = List[Array[Byte]]() 
@@ -17,10 +15,17 @@ object Packet {
           args = new ListBuffer[Byte]
         }
       }
+      payload = args.toArray :: payload
       new Packet(header,payload.reverse)
     } else {
       new Packet(header,List[Array[Byte]]())
     }
+  }
+
+  def fromBytes(data: Array[Byte]): Packet = {
+    require(data != null); require(data.size >= 12)
+    val header = PacketHeader.fromBytes(data)
+    fromBytes(header, data.drop(12))
   }
 }
 
