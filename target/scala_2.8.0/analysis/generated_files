@@ -1,4 +1,9 @@
 #Generated Classes
-#Sat Jul 31 14:43:05 EDT 2010
-src/main/scala/com/grooveshark/gearman/protocol/Packet.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet.class
+#Wed Aug 04 20:08:49 EDT 2010
+src/main/scala/com/grooveshark/gearman/Message.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/Message.class
+src/main/scala/com/grooveshark/gearman/protocol/Packet.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$$anonfun$fromBytes$1.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$$anonfun$toBytes$2$$anonfun$apply$1.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$$anonfun$toBytes$1.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$$anonfun$toBytes$2.class
+src/main/scala/com/grooveshark/gearman/req/client/SubmitJob.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/req/client/SubmitJob.class
 src/main/scala/com/grooveshark/gearman/protocol/PacketHeader.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketHeader$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketMagic$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketHeader.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketType$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketType.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketMagic.class
+src/main/scala/com/grooveshark/gearman/req/client/SubmitJobBg.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/req/client/SubmitJobBg.class
+src/main/scala/com/grooveshark/gearman/res/client/JobCreated.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/res/client/JobCreated.class
+src/main/scala/com/grooveshark/gearman/res/client/WorkComplete.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/res/client/WorkComplete.class

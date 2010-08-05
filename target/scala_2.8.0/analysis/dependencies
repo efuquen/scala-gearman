@@ -1,4 +1,9 @@
 #Source Dependencies
-#Sat Jul 31 14:43:05 EDT 2010
-src/main/scala/com/grooveshark/gearman/protocol/Packet.scala=
-src/main/scala/com/grooveshark/gearman/protocol/PacketHeader.scala=src/main/scala/com/grooveshark/gearman/protocol/Packet.scala
+#Wed Aug 04 20:08:49 EDT 2010
+src/main/scala/com/grooveshark/gearman/Message.scala=src/main/scala/com/grooveshark/gearman/req/client/SubmitJob.scala\:src/main/scala/com/grooveshark/gearman/res/client/WorkComplete.scala\:src/main/scala/com/grooveshark/gearman/req/client/SubmitJobBg.scala\:src/main/scala/com/grooveshark/gearman/res/client/JobCreated.scala
+src/main/scala/com/grooveshark/gearman/protocol/Packet.scala=src/main/scala/com/grooveshark/gearman/req/client/SubmitJob.scala\:src/main/scala/com/grooveshark/gearman/res/client/WorkComplete.scala\:src/main/scala/com/grooveshark/gearman/Message.scala\:src/main/scala/com/grooveshark/gearman/req/client/SubmitJobBg.scala\:src/main/scala/com/grooveshark/gearman/res/client/JobCreated.scala
+src/main/scala/com/grooveshark/gearman/req/client/SubmitJob.scala=
+src/main/scala/com/grooveshark/gearman/protocol/PacketHeader.scala=src/main/scala/com/grooveshark/gearman/req/client/SubmitJob.scala\:src/main/scala/com/grooveshark/gearman/res/client/WorkComplete.scala\:src/main/scala/com/grooveshark/gearman/protocol/Packet.scala\:src/main/scala/com/grooveshark/gearman/res/client/JobCreated.scala
+src/main/scala/com/grooveshark/gearman/req/client/SubmitJobBg.scala=
+src/main/scala/com/grooveshark/gearman/res/client/JobCreated.scala=
+src/main/scala/com/grooveshark/gearman/res/client/WorkComplete.scala=
