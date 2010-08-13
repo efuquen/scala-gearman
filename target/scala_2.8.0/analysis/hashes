@@ -1,11 +1,22 @@
 #Source Hashes
-#Wed Aug 04 21:27:37 EDT 2010
+#Tue Aug 10 05:59:06 EDT 2010
+src/main/scala/com/grooveshark/gearman/req/worker/WorkStatus.scala=a64c457615eb5e35cc7c6419077354213add78eb
+src/main/scala/com/grooveshark/gearman/res/client/JobCreated.scala=6005578749140847cb39f9dbaf5b1eb4c299bd0d
+src/main/scala/com/grooveshark/gearman/req/worker/WorkFail.scala=9c8c5a1a13364cf556f13a21bb489da8d6da1dbc
 src/main/scala/com/grooveshark/gearman/Message.scala=56886c1697885ab83c0a9a1484efb19085ab56a6
-src/main/scala/com/grooveshark/gearman/res/client/JobCreated.scala=ef376905a02573894378bb0eb159f41aba965f14
-src/main/scala/com/grooveshark/gearman/protocol/Packet.scala=4db7ad41a54a55189bb81827680d9769696df73e
-src/main/scala/com/grooveshark/gearman/net/Connection.scala=62d6f6be2e27a608cb980f9512d148c7de04ea1b
-src/main/scala/com/grooveshark/gearman/req/client/SubmitJobBg.scala=727ac0b733f803c3726dae332fc9accf6ec9e327
-src/main/scala/com/grooveshark/gearman/req/client/SubmitJob.scala=877913e40826c582194195c1f4bc6ce3c03cbf54
-src/main/scala/com/grooveshark/gearman/res/client/WorkComplete.scala=7c95fb5a49fb95403537bcd1ebe87d64220e8e87
-src/main/scala/com/grooveshark/gearman/GearmanClient.scala=47142a0e7cae567960ffb7dc11644f2784ff564f
+src/main/scala/com/grooveshark/gearman/req/client/SubmitJob.scala=acd740faa037e98572a7afacb4ed3ea00e24e41d
+src/main/scala/com/grooveshark/gearman/req/client/SubmitJobBg.scala=6a0d3054bdc050b8893d049ff2149dabc8d81219
 src/main/scala/com/grooveshark/gearman/protocol/PacketHeader.scala=9315e9b26e06100dcf8ce191fa53db2687aafa8e
+src/main/scala/com/grooveshark/gearman/res/client/WorkComplete.scala=502d365d35ed675e35e5e80a1ac1eebe4b7635d0
+src/main/scala/com/grooveshark/gearman/protocol/Packet.scala=4db7ad41a54a55189bb81827680d9769696df73e
+src/main/scala/com/grooveshark/gearman/req/worker/WorkData.scala=2735b969ac740b2e9623bf438359357d18f89f69
+src/main/scala/com/grooveshark/gearman/GearmanServer.scala=b6504da929df2fe790f1a57a6cca6aba73746c51
+src/main/scala/com/grooveshark/gearman/req/worker/WorkException.scala=67db6eff032ac387fd83228ca13ca34ab09af3a3
+src/main/scala/com/grooveshark/gearman/GearmanClient.scala=6d199fc5c43653d8a387c809e19b7f07c32611ec
+src/main/scala/com/grooveshark/gearman/GearmanResult.scala=28efc696d4c2eb493c174907575fc84280013a89
+src/main/scala/com/grooveshark/gearman/err/GearmanException.scala=f59e4e8a0c59fc8ef50390724e757f486ebac24a
+src/main/scala/com/grooveshark/gearman/res/Error.scala=e577acd4db068022fd49a9a1341a8ff1a0b574d1
+src/main/scala/com/grooveshark/gearman/res/EchoRes.scala=6884b61385b9cab98763a5e92ce15dddd2225ae9
+src/main/scala/com/grooveshark/gearman/net/Connection.scala=b7e771e4cb9710d5e4be0423f6738c7ccfcbfc33
+src/main/scala/com/grooveshark/gearman/req/worker/WorkWarning.scala=8398a59a624f09d3b26d302b2098d881b1c702fc
+src/main/scala/com/grooveshark/gearman/req/client/Job.scala=4fba94e8ee25cb72c4d03dfb57ba6fb601d86045

@@ -6,16 +6,16 @@ import com.grooveshark.gearman.Message
 import com.grooveshark.util.NumberUtil._
 
 class JobCreated(
-  val handle: String) extends Message {
+  val handle: Array[Byte]) extends Message {
 
-  def this(packet: Packet) = this(new String(packet.data(0)))
+  def this(handleArg: String) = this(handleArg.getBytes)
+  def this(packet: Packet) = this(packet.data(0))
+
+  def handleToStr = new String(handle)
 
   override def toPacket: Packet = {
-    val handleBytes = handle.getBytes
-    val size = handleBytes.size
-
+    val size = handle.size
     val header = new PacketHeader(PacketMagic.Res,PacketType.JobCreated,size)
-
-    new Packet(header,List(handleBytes))
+    new Packet(header,List(handle))
   }
 }

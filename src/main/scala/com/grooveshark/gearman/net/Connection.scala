@@ -1,6 +1,6 @@
 package com.grooveshark.gearman.net
 
-import com.grooveshark.gearman.Message
+import com.grooveshark.gearman.GearmanServer
 
 import com.grooveshark.gearman.protocol.{Packet,PacketHeader}
 
@@ -14,6 +14,8 @@ import java.io.{BufferedInputStream,BufferedOutputStream}
 class Connection(
   host: String,
   port: Int) extends Logger {
+
+  def this(server: GearmanServer) = this(server.host,server.port)
 
   val socket = new Socket(host,port)
   val in = new BufferedInputStream(socket.getInputStream)

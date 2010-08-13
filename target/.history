@@ -8,3 +8,9 @@ exit
 help
 actions
 compile
+import com.grooveshark.gearman.GearmanClient
+list
+help
+actions
+console-quick
+exit

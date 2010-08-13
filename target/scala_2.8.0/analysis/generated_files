@@ -1,11 +1,22 @@
 #Generated Classes
-#Wed Aug 04 21:27:37 EDT 2010
-src/main/scala/com/grooveshark/gearman/Message.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/Message.class
+#Tue Aug 10 05:59:06 EDT 2010
+src/main/scala/com/grooveshark/gearman/req/worker/WorkStatus.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/req/worker/WorkStatus.class
 src/main/scala/com/grooveshark/gearman/res/client/JobCreated.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/res/client/JobCreated.class
-src/main/scala/com/grooveshark/gearman/protocol/Packet.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$$anonfun$fromBytes$1.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$$anonfun$toBytes$2$$anonfun$apply$1.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$$anonfun$toBytes$1.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$$anonfun$toBytes$2.class
-src/main/scala/com/grooveshark/gearman/net/Connection.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/net/Connection$$anonfun$receive$1.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/net/Connection.class
-src/main/scala/com/grooveshark/gearman/req/client/SubmitJobBg.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/req/client/SubmitJobBg.class
+src/main/scala/com/grooveshark/gearman/req/worker/WorkFail.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/req/worker/WorkFail.class
+src/main/scala/com/grooveshark/gearman/Message.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/Message.class
 src/main/scala/com/grooveshark/gearman/req/client/SubmitJob.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/req/client/SubmitJob.class
+src/main/scala/com/grooveshark/gearman/req/client/SubmitJobBg.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/req/client/SubmitJobBg.class
+src/main/scala/com/grooveshark/gearman/protocol/PacketHeader.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketHeader$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketMagic$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketHeader.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketType$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketType.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketMagic.class
 src/main/scala/com/grooveshark/gearman/res/client/WorkComplete.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/res/client/WorkComplete.class
-src/main/scala/com/grooveshark/gearman/GearmanClient.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/GearmanClient.class
-src/main/scala/com/grooveshark/gearman/protocol/PacketHeader.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketMagic.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketMagic$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketHeader.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketType$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketType.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/PacketHeader$.class
+src/main/scala/com/grooveshark/gearman/protocol/Packet.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$$anonfun$fromBytes$1.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$$anonfun$toBytes$2$$anonfun$apply$1.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$$anonfun$toBytes$1.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/protocol/Packet$$anonfun$toBytes$2.class
+src/main/scala/com/grooveshark/gearman/req/worker/WorkData.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/req/worker/WorkData.class
+src/main/scala/com/grooveshark/gearman/GearmanServer.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/GearmanServer.class
+src/main/scala/com/grooveshark/gearman/req/worker/WorkException.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/req/worker/WorkException.class
+src/main/scala/com/grooveshark/gearman/GearmanClient.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/GearmanClient$$anonfun$3.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/GearmanClient$$anonfun$pickServer$1.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/GearmanClient$$anonfun$2.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/GearmanClient.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/GearmanClient$$anonfun$1.class
+src/main/scala/com/grooveshark/gearman/GearmanResult.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/GearmanResult.class
+src/main/scala/com/grooveshark/gearman/err/GearmanException.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/err/GearmanException.class
+src/main/scala/com/grooveshark/gearman/res/Error.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/res/Error.class
+src/main/scala/com/grooveshark/gearman/res/EchoRes.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/res/EchoRes.class
+src/main/scala/com/grooveshark/gearman/net/Connection.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/net/Connection$$anonfun$receive$1.class\:target/scala_2.8.0/classes/com/grooveshark/gearman/net/Connection.class
+src/main/scala/com/grooveshark/gearman/req/worker/WorkWarning.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/req/worker/WorkWarning.class
+src/main/scala/com/grooveshark/gearman/req/client/Job.scala=target/scala_2.8.0/classes/com/grooveshark/gearman/req/client/Job.class
